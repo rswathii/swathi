@@ -11,3 +11,28 @@ export const favStudent = (data) =>{
         payload : data
     }
 }
+export const deleteStudent = (id) =>{
+
+    // console.log(id)
+
+    return {
+
+        type:"DELETE_STUDENT",
+
+        payload : id
+
+    }
+
+}
+
+export const editStudent = (data) =>{
+
+    return {
+
+        type:"EDIT_STUDENT",
+
+        payload : data
+
+    }
+
+}
